@@ -18,6 +18,7 @@ class Portfolio
 		@accounts = []
 	end
 
+	# Add this
 	def each(&block)
 		@accounts.each(&block)
 	end
